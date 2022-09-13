@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="heading">
+                <img src="/images/logo.png" alt="Logo" />
+                <h1>Anas</h1>
+            </div>
+            <p>Photo by <a
+                    href="https://unsplash.com/@sallybrad2016?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Preethi
+                    Viswanathan</a> on <a
+                    href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </aside>
+
+        <article>
+            <div class="caption">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams. Sign up <i>now</i> to get started.</p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+            <form action="#">
+                <fieldset>
+                    <h2>Let's do this!</h2>
+                    <div>
+                        <input id="first_name" type="text" name="first_name" required placeholder=" ">
+                        <label for="first_name">First Name</label>
+                    </div>
+
+                    <div>
+                        <input id="last_name" type="text" name="last_name" required placeholder=" ">
+                        <label for="last_name">Last Name</label>
+                    </div>
+
+                    <div>
+                        <input id="email" type="email" name="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div>
+                        <input id="phone" type="tel" name="phone_number" pattern="[0-9]{8}" required placeholder=" ">
+                        <label for="phone">Phone Number</label>
+                    </div>
+
+                    <div>
+                        <input id="password" type="password" name="password" placeholder=" " required>
+                        <label for="password">Password</label>
+                    </div>
+
+                    <div>
+                        <input id="confirm_password" type="password" name="confirm_password" placeholder=" " required>
+                        <label for="confirm_password">Confirm Password</label>
+                    </div>
+                </fieldset>
+
+                <div class="call-to-action">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log In</a></p>
+                </div>
+            </form>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
